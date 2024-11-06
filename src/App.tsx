@@ -2,11 +2,13 @@ import {motion} from "framer-motion";
 const App = () => {
   return <div>
     <motion.div 
-    className="box"
-    whileTap={{scale: 0.8,
-      backgroundColor: "whitesmoke"
+    className="box " 
+    drag 
+    dragConstraints = {{top: -50, left: -50, bottom: 50, right: 50}}
+    whileDrag={{scale: 0.7,
+      // backgroundColor: "whitesmoke"
     }}
-    transition={{ type: "inertia", stiffness: 1000}}
+    transition={{ type: "spring", stiffness: 100}}
 
     />
 
