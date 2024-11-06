@@ -3,10 +3,10 @@ const App = () => {
   return <div>
     <motion.div 
     className="box"
-    whileHover={{scale: 1.2,
-      rotate: 10
+    whileTap={{scale: 0.8,
+      backgroundColor: "whitesmoke"
     }}
-    transition={{ type: "spring", stiffness: 1000}}
+    transition={{ type: "inertia", stiffness: 1000}}
 
     />
 
