@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import ImageGallery from "./components/ImageGallery";
+import AnimatedShape from "./components/AnimatedShape";
 const App = () => {
   return (
     <div>
-      <ImageGallery/>
+      <AnimatedShape/>
     </div>
   );
 };
