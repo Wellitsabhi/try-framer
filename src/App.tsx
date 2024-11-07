@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import AnimatedCard from "./components/AnimatedCard";
+import ImageGallery from "./components/ImageGallery";
 const App = () => {
   return (
     <div>
-      <AnimatedCard />
+      <ImageGallery/>
     </div>
   );
 };
