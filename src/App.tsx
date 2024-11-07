@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import AnimatedShape from "./components/AnimatedShape";
+import StaggerAnimation from "./components/StaggerAnimation";
 const App = () => {
   return (
     <div>
-      <AnimatedShape/>
+      <StaggerAnimation/>
     </div>
   );
 };
