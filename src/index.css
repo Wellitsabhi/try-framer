@@ -17,14 +17,14 @@ body{
     height: 100vh;
 }
 
-/* .box{
+.box{
     width: 200px;
     height: 200px;
-    border-radius: 10%;
+    border-radius: 50%;
     background: yellow;
-} */
+}
 
-.box{
+/* .box{
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -38,4 +38,4 @@ body{
     color: #fff;
     font-size: 64px;
     text-align: center;
-}
+} */
