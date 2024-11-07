@@ -1,8 +1,8 @@
-import DraggableBox from "./components/DraggableBox";
+import ScrollAnimation from "./components/ScrollAnimation";
 const App = () => {
   return (
     <div>
-      <DraggableBox />
+      <ScrollAnimation />
     </div>
   );
 };
