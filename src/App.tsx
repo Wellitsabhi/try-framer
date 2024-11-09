@@ -1,13 +1,9 @@
-import StaggeredList from "./components/StaggeredList";
-import Timeline from "./components/Timeline";
+import Sidebar from "./components/Sidebar";
 const App = () => {
   return (
-    <div>
-
-  <div className="h-[150rem] flex justify-center  items-center bg-[#0d1017]">
-    <Timeline/>
+    <div className="flext justify-center items-center h-screen w-full bg-gray-900 text-white">
+      <Sidebar />
     </div>
-  </div>
   );
 };
 
